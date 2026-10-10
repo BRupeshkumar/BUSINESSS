@@ -25,37 +25,3 @@ A comprehensive business management dashboard to streamline product inventory, t
 | Product | name, description, price, quantity, category, image_url, sku |
 | Customer | name, email, phone, address, company |
 | Sale | product, customer, quantity, unit_price, total_amount, sale_date, status |
-
----
-
-## Base44 Project
-
-Use this repository to run and edit the app locally, then publish changes back through Base44.
-
-## Prerequisites
-
-1. Clone the repository using the project's Git URL.
-2. Navigate to the project directory.
-3. Install dependencies: `npm install`.
-4. Install the Base44 CLI: `npm install -g base44@latest`.
-5. Install [Deno](https://docs.deno.com/runtime/getting_started/installation/) — the local Base44 backend runs on it.
-
-## Run Locally
-
-```bash
-base44 login   # one-time per machine
-base44 link    # one-time per clone
-base44 dev     # local backend + frontend together
-```
-
-## Publish Your Changes
-
-```bash
-base44 dashboard open
-```
-
-## Docs & Support
-
-GitHub integration: https://docs.base44.com/developers/app-code/local-development/github
-
-Support: https://app.base44.com/support
